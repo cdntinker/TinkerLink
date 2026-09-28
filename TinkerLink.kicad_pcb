@@ -7,6 +7,10 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "TinkerLink")
+		(rev "0.0.2")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(2 "B.Cu" signal)
@@ -6894,7 +6898,7 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "TinkerLink\nrev. 0.0.2"
+	(gr_text "${TITLE}\nrev. ${REVISION}"
 		(at 108.62 91.5 0)
 		(layer "B.SilkS")
 		(uuid "edce1386-084a-4a92-96fb-8afcca95e43e")
