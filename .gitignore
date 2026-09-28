@@ -1,0 +1,13 @@
+# This seems to be a fairly good .gitignore for KiCAD 6 projects
+
+*.bak
+*.kicad_prl
+*.lck
+
+fp-info-cache
+fp-lib-table
+
+*.FCStd1
+
+*/*-backups/
+

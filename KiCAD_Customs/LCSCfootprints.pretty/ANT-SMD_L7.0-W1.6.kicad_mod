@@ -1,0 +1,171 @@
+(footprint "ANT-SMD_L7.0-W1.6"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "311d8426-e078-4464-bce0-a8b9eec11645")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ANT-SMD_L7.0-W1.6"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "62e79e39-df59-4e28-8b4c-567e89670fdd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "720813e8-234c-4512-93c8-4ab7ff7d193e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "958472f5-a528-4db9-be72-35a7c5158096")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC Part" "C515701"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d1cf9a48-7485-4dac-b37d-098c847ef2a7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.5 -1.27)
+		(end 3.5 -1.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5ff12f28-d810-474a-a101-fd89864f4be3")
+	)
+	(fp_line
+		(start -3.5 1.27)
+		(end 3.5 1.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ad2dae13-3068-4d34-adf9-67ea2b2b58ca")
+	)
+	(fp_circle
+		(center -3.5 0.8)
+		(end -3.47 0.8)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "59ce7ade-0f84-45f4-bfb9-12a66242ee59")
+	)
+	(fp_line
+		(start -3.5 -0.8)
+		(end 3.5 -0.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "06403cac-4420-457b-82f9-e0acfdd67d28")
+	)
+	(fp_line
+		(start -3.5 0.8)
+		(end -3.5 -0.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6303114e-b221-42e6-b66d-484412629ea5")
+	)
+	(fp_line
+		(start 3.5 -0.8)
+		(end 3.5 0.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "823a0b5b-ddc3-4dfc-82f1-85e8cd2ca2bb")
+	)
+	(fp_line
+		(start 3.5 0.8)
+		(end -3.5 0.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a9b74c5b-53c2-4387-ba83-0b3f5114c378")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "44051919-6a91-4b6b-a64b-5242900b8d15")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -3.25 0 90)
+		(size 2 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1bffc4bb-1b2e-4a86-bb26-f9bba1401483")
+	)
+	(pad "2" smd rect
+		(at 3.25 0 90)
+		(size 2 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2bc327aa-beff-4fd1-b5e6-40c3ccc32ab4")
+	)
+	(embedded_fonts no)
+	(model "/home/tinker/Documents/Projects/TinkerLink/KiCAD_Customs/C515701/ANT-SMD_L7.0-W1.6.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
