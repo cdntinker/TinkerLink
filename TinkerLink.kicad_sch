@@ -1402,6 +1402,268 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Tinker_Lib:USB-A-USB-C"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "USB1"
+				(at 0 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "USB-A-USB-C"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "tinker:USB-A-USB-C"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/USB-Connectors_XUNPU-USB-212-BCW_C720521.html"
+				(at 0 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "XUNPU(讯普)"
+				(at 0 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "USB-212-BCW"
+				(at 0 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C720521"
+				(at 0 -21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "USB Connectors"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "USB-A-USB-C_0_1"
+				(rectangle
+					(start -7.62 6.35)
+					(end 7.62 -8.89)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 3.81 0)
+					(length 2.54)
+					(name "EH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 3.81 180)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 1.27 180)
+					(length 2.54)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -1.27 180)
+					(length 2.54)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -3.81 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "USB-A-USB-C_1_1"
+				(pin input line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "A8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -7.62 0)
+					(length 2.54)
+					(name "B8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Tinker_Lib:USB-C-Hermaphrodite"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2322,194 +2584,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "USB-A-SMD_USB-212-BCW:USB-212-BCW"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "USB"
-				(at 0 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "USB-212-BCW"
-				(at 0 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "C720521:USB-A-SMD_USB-212-BCW"
-				(at 0 -11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/USB-Connectors_XUNPU-USB-212-BCW_C720521.html"
-				(at 0 -13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "XUNPU(讯普)"
-				(at 0 -16.51 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "USB-212-BCW"
-				(at 0 -19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C720521"
-				(at 0 -21.59 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "USB Connectors"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "USB-212-BCW_0_1"
-				(rectangle
-					(start -7.62 6.35)
-					(end 7.62 -6.35)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin unspecified line
-					(at -10.16 1.27 0)
-					(length 2.54)
-					(name "EH"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 3.81 180)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 1.27 180)
-					(length 2.54)
-					(name "D-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 -1.27 180)
-					(length 2.54)
-					(name "D+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 -3.81 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "WIFIM-SMD_ESP-01F-2M:ESP-01F-2M"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3103,6 +3177,26 @@
 		)
 		(uuid "60d28632-6d3d-4694-8ed6-a2c9743d15b0")
 	)
+	(text "LCSCfootprints:USB-A-SMD_USB-212-BCW"
+		(exclude_from_sim no)
+		(at 43.434 55.626 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "64afd862-f215-43ed-a1aa-5b85cdf52e44")
+	)
+	(text "tinker:USB_C_Hermaphrodite"
+		(exclude_from_sim no)
+		(at 143.51 61.468 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d39645ec-5b89-429d-9886-1f89bc5a3866")
+	)
 	(junction
 		(at 148.59 154.94)
 		(diameter 0)
@@ -3661,6 +3755,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 35.56) (xy 30.48 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8224dfb2-007f-48e8-a587-acd858ba7413")
+	)
+	(wire
+		(pts
 			(xy 87.63 57.15) (xy 87.63 58.42)
 		)
 		(stroke
@@ -3791,7 +3895,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 38.1) (xy 30.48 45.72)
+			(xy 30.48 35.56) (xy 30.48 45.72)
 		)
 		(stroke
 			(width 0)
@@ -4008,16 +4112,6 @@
 			(type default)
 		)
 		(uuid "e090fd62-fd8f-4074-a6e6-80641f4fbf89")
-	)
-	(wire
-		(pts
-			(xy 33.02 38.1) (xy 30.48 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e293ecef-bd39-4107-bac7-d63b1cbd6514")
 	)
 	(wire
 		(pts
@@ -5717,7 +5811,7 @@
 		)
 	)
 	(symbol
-		(lib_id "USB-A-SMD_USB-212-BCW:USB-212-BCW")
+		(lib_id "Tinker_Lib:USB-A-USB-C")
 		(at 43.18 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5734,7 +5828,7 @@
 				)
 			)
 		)
-		(property "Value" "USB-212-BCW"
+		(property "Value" "USB-A-USB-C"
 			(at 43.18 30.48 0)
 			(effects
 				(font
@@ -5742,7 +5836,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LCSCfootprints:USB-A-SMD_USB-212-BCW"
+		(property "Footprint" "tinker:USB-A-USB-C"
 			(at 43.18 50.8 0)
 			(effects
 				(font
@@ -5810,6 +5904,18 @@
 		)
 		(pin "2"
 			(uuid "b66badec-b964-4de4-87e3-9a35896c815c")
+		)
+		(pin "B5"
+			(uuid "75adac61-f817-4a5a-bfc9-b7688a9b685a")
+		)
+		(pin "A5"
+			(uuid "fa45d864-1d54-47f7-9e05-ba04c4c74af6")
+		)
+		(pin "B8"
+			(uuid "7114ac6f-5715-4c16-88a9-15fdcf16aeb6")
+		)
+		(pin "A8"
+			(uuid "582efc52-8a17-4178-8049-098ac7c57463")
 		)
 		(instances
 			(project ""
