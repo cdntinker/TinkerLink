@@ -7,3 +7,5 @@
   * Pass them through?
   * Maybe have the ESP handle them...
 * Would the chosen VREG handle higher Vusb levels?
+  * Apparently not... Max 6v5
+  
