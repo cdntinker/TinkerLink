@@ -3838,6 +3838,16 @@
 		)
 		(uuid "64afd862-f215-43ed-a1aa-5b85cdf52e44")
 	)
+	(text "CC1 & CC2 (CC & Vconn) are interchangeable\nunless you need superspeed or other modes\nbeyond USB 2. (they re swapped here...)"
+		(exclude_from_sim no)
+		(at 87.376 23.114 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "b935d575-d5d2-4d7a-910a-5f4428f11704")
+	)
 	(text "Possible replacement 3v3 source"
 		(exclude_from_sim no)
 		(at 55.118 147.828 0)
@@ -4216,16 +4226,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 142.24) (xy 184.15 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3101f6b5-ce6f-4c22-9227-8b1556720949")
-	)
-	(wire
-		(pts
 			(xy 53.34 35.56) (xy 77.47 35.56)
 		)
 		(stroke
@@ -4506,16 +4506,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 134.62) (xy 189.23 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6dfa5a45-0017-41d8-aa5d-ae14361dba90")
-	)
-	(wire
-		(pts
 			(xy 181.61 116.84) (xy 196.85 116.84)
 		)
 		(stroke
@@ -4543,6 +4533,16 @@
 			(type default)
 		)
 		(uuid "77097dd6-7fac-4041-9927-8c87f0d592ff")
+	)
+	(wire
+		(pts
+			(xy 184.15 142.24) (xy 184.15 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cf7414d-db24-48aa-bbc1-20d6c48d8eab")
 	)
 	(wire
 		(pts
@@ -4576,7 +4576,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 35.56) (xy 30.48 35.56)
+			(xy 33.02 35.56) (xy 19.05 35.56)
 		)
 		(stroke
 			(width 0)
@@ -4633,6 +4633,16 @@
 			(type default)
 		)
 		(uuid "8e01ac76-51cd-4d51-ad43-a7ae4e6b7126")
+	)
+	(wire
+		(pts
+			(xy 189.23 142.24) (xy 189.23 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e89a526-fd30-471f-a8f1-c63700f23516")
 	)
 	(wire
 		(pts
@@ -4746,7 +4756,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 35.56) (xy 30.48 45.72)
+			(xy 19.05 35.56) (xy 19.05 46.99)
 		)
 		(stroke
 			(width 0)
@@ -4856,16 +4866,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 134.62) (xy 189.23 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bcc2f064-b37d-422f-9eea-ef0f2546fa65")
-	)
-	(wire
-		(pts
 			(xy 87.63 55.88) (xy 92.71 55.88)
 		)
 		(stroke
@@ -4893,6 +4893,16 @@
 			(type default)
 		)
 		(uuid "bdbf21f1-5036-4236-ba04-7bfbf83c7f50")
+	)
+	(wire
+		(pts
+			(xy 184.15 134.62) (xy 167.64 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be2cfbe4-cb7e-4fd9-8b80-7a3632004169")
 	)
 	(wire
 		(pts
@@ -4976,6 +4986,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 142.24) (xy 186.69 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d50124f8-3cb7-4fef-ba0e-afc4bc2e3f77")
+	)
+	(wire
+		(pts
 			(xy 257.81 143.51) (xy 257.81 138.43)
 		)
 		(stroke
@@ -4996,7 +5016,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 124.46) (xy 167.64 124.46)
+			(xy 167.64 124.46) (xy 189.23 124.46)
 		)
 		(stroke
 			(width 0)
@@ -5076,7 +5096,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 127) (xy 167.64 127)
+			(xy 167.64 127) (xy 186.69 127)
 		)
 		(stroke
 			(width 0)
@@ -5093,16 +5113,6 @@
 			(type default)
 		)
 		(uuid "fba8bb01-a3ac-4485-bc05-0ad7cb1e7f77")
-	)
-	(wire
-		(pts
-			(xy 186.69 142.24) (xy 186.69 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fdef2185-a610-47e9-9da6-2fd18784c794")
 	)
 	(wire
 		(pts
@@ -5277,6 +5287,28 @@
 		(uuid "11792bf3-bb50-49d7-b4da-c107bd36cf42")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 250.19 150.7285 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CC"
+		(shape input)
+		(at 33.02 44.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "13d3bff4-72de-4533-88af-4e8fe0b64943")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 27.4948 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5651,6 +5683,28 @@
 		(uuid "e34d98c3-4650-4fa7-a7e0-1932f4658405")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 119.842 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Vconn"
+		(shape input)
+		(at 33.02 39.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fe3db7eb-0723-4e26-9c48-e213ef64f8ae")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 24.4106 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6220,7 +6274,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 30.48 45.72 0)
+		(at 19.05 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6229,7 +6283,7 @@
 		(fields_autoplaced yes)
 		(uuid "2dbc6593-276f-4478-a77c-01188627ef55")
 		(property "Reference" "#PWR02"
-			(at 30.48 52.07 0)
+			(at 19.05 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6238,7 +6292,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 30.48 50.8 0)
+			(at 19.05 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6246,7 +6300,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 45.72 0)
+			(at 19.05 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6255,7 +6309,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 45.72 0)
+			(at 19.05 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6264,7 +6318,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 30.48 45.72 0)
+			(at 19.05 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)

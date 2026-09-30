@@ -4,13 +4,14 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -5.5 0)
+		(at 0 -2.4 0)
 		(layer "F.SilkS")
 		(uuid "292cfa2f-e21c-457c-a511-208197daf9e3")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
 			)
 		)
 	)
@@ -66,7 +67,7 @@
 		(start -1.55 1.55)
 		(end -1.55 -1.55)
 		(stroke
-			(width 0.25)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -76,7 +77,7 @@
 		(start 1.55 -1.55)
 		(end 1.55 1.55)
 		(stroke
-			(width 0.25)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -94,8 +95,8 @@
 		(uuid "cbfc1fa1-a35c-400b-bc00-0daf47291119")
 	)
 	(fp_circle
-		(center -1.56 2)
-		(end -1.43 2)
+		(center -1.266569 0.942918)
+		(end -1.216569 0.942918)
 		(stroke
 			(width 0.25)
 			(type solid)
@@ -103,17 +104,6 @@
 		(fill no)
 		(layer "F.SilkS")
 		(uuid "cd5441b4-1550-4b62-9cce-01c62ddd84fa")
-	)
-	(fp_circle
-		(center -1.01 1.93)
-		(end -0.88 1.93)
-		(stroke
-			(width 0.25)
-			(type solid)
-		)
-		(fill no)
-		(layer "Cmts.User")
-		(uuid "6099f3c7-68b6-4bf2-8a01-4af3c47a3da3")
 	)
 	(fp_line
 		(start -1.52 -1.53)
