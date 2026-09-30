@@ -10,3 +10,6 @@
   * Apparently not... Max 6v5
   * Austins fault:  AP63203WU :P
   
+* Austin is suggesting replacing the FET with SQS411ENW
+  * Maybe...
+  
