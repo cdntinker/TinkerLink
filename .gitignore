@@ -9,5 +9,7 @@ fp-lib-table
 
 *.FCStd1
 
+*-backups
 */*-backups/
 
+*auto_saved_files#
