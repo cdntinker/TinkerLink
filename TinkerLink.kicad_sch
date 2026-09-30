@@ -13984,7 +13984,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LCSCfootprints:Creations logo med"
+		(property "Footprint" "AUSTINfootprints:Creations logo med"
 			(at 35.814 23.876 0)
 			(effects
 				(font
