@@ -6649,6 +6649,214 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "C7423106:SK6812MINIRGBW-WS-P6-A"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SK6812MINIRGBW-WS-P6-A"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "C7423106:LED-SMD_6P-L3.5-W3.5_SK6812MINIRGBW-WS-P6-A"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C7423106.pdf"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "OPSCO(欧思科)"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "SK6812MINIRGBW-WS-P6-A"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C7423106"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SK6812MINIRGBW-WS-P6-A_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -6.35 3.81)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x06_Pin"
 			(pin_names
 				(offset 1.016)
@@ -10161,6 +10369,12 @@
 		(uuid "5e8e6d3e-30af-4554-801e-037a97a10127")
 	)
 	(junction
+		(at 261.62 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "692ddc43-40f3-4bbd-96a7-db7623fc42ab")
+	)
+	(junction
 		(at 40.64 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10269,8 +10483,8 @@
 		(uuid "f2fe94d9-ba10-4f26-a668-be647e7c746b")
 	)
 	(no_connect
-		(at 353.06 86.36)
-		(uuid "692c44dc-edac-487c-873c-d8e036cbb62b")
+		(at 237.49 93.98)
+		(uuid "3e698843-84d8-44ba-aa20-070961d7bedf")
 	)
 	(no_connect
 		(at 92.71 76.2)
@@ -10348,7 +10562,7 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 86.36) (xy 326.39 86.36)
+			(xy 220.98 99.06) (xy 224.79 99.06)
 		)
 		(stroke
 			(width 0)
@@ -10435,6 +10649,16 @@
 			(type default)
 		)
 		(uuid "20021a17-1b19-4ae5-b5c3-828d9b3c0b6e")
+	)
+	(wire
+		(pts
+			(xy 236.22 96.52) (xy 236.22 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "218b04b5-9b50-4ccc-9f24-35675c76d4fb")
 	)
 	(wire
 		(pts
@@ -10638,6 +10862,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 99.06) (xy 261.62 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cdc991e-8532-4eb9-b88f-127a1fbbefef")
+	)
+	(wire
+		(pts
 			(xy 77.47 76.2) (xy 77.47 78.74)
 		)
 		(stroke
@@ -10818,7 +11052,7 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 86.36) (xy 335.28 86.36)
+			(xy 232.41 99.06) (xy 237.49 99.06)
 		)
 		(stroke
 			(width 0)
@@ -10895,6 +11129,16 @@
 			(type default)
 		)
 		(uuid "77097dd6-7fac-4041-9927-8c87f0d592ff")
+	)
+	(wire
+		(pts
+			(xy 257.81 99.06) (xy 261.62 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7be39a67-f68b-4a26-994d-bf766abf1a26")
 	)
 	(wire
 		(pts
@@ -10998,7 +11242,7 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 76.2) (xy 344.17 77.47)
+			(xy 265.43 93.98) (xy 261.62 93.98)
 		)
 		(stroke
 			(width 0)
@@ -11025,6 +11269,16 @@
 			(type default)
 		)
 		(uuid "985cd4d4-9bb8-4c0f-b754-cb9dd3b940d0")
+	)
+	(wire
+		(pts
+			(xy 261.62 93.98) (xy 257.81 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9980d377-148b-4544-94a7-6237383cd6e6")
 	)
 	(wire
 		(pts
@@ -11318,6 +11572,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 96.52) (xy 236.22 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c08a99ed-f45b-452d-86c0-52b79fee3248")
+	)
+	(wire
+		(pts
 			(xy 30.48 128.27) (xy 30.48 123.19)
 		)
 		(stroke
@@ -11585,16 +11849,6 @@
 			(type default)
 		)
 		(uuid "ebc7bf66-1a80-43d7-b0c2-54f8e9f744af")
-	)
-	(wire
-		(pts
-			(xy 344.17 95.25) (xy 344.17 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f03925ee-9bf9-4a13-b4de-535e17982faf")
 	)
 	(wire
 		(pts
@@ -12138,7 +12392,7 @@
 	)
 	(global_label "io14"
 		(shape input)
-		(at 322.58 86.36 180)
+		(at 220.98 99.06 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12148,7 +12402,7 @@
 		)
 		(uuid "92f2ba91-f98d-4ba8-a1a8-649cdd2682c1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 315.422 86.36 0)
+			(at 213.822 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12292,7 +12546,7 @@
 	)
 	(global_label "Vdd"
 		(shape input)
-		(at 344.17 76.2 90)
+		(at 265.43 93.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12302,7 +12556,7 @@
 		)
 		(uuid "e8654c10-ca25-443e-824a-13b874d45f82")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 344.17 69.8282 90)
+			(at 271.8018 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12612,6 +12866,113 @@
 			(project ""
 				(path "/d9db63b9-0e33-4ffc-b3bb-ae5011fef151"
 					(reference "USB2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "C7423106:SK6812MINIRGBW-WS-P6-A")
+		(at 247.65 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "174ed519-a843-4ccc-a2e5-fdec9a88a5d6")
+		(property "Reference" "LED1"
+			(at 247.65 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINIRGBW-WS-P6-A"
+			(at 247.65 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LCSCfootprints:LED-SMD_6P-L3.5-W3.5_SK6812MINIRGBW-WS-P6-A"
+			(at 247.65 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C7423106.pdf"
+			(at 247.65 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 247.65 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "OPSCO(欧思科)"
+			(at 247.65 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SK6812MINIRGBW-WS-P6-A"
+			(at 247.65 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C7423106"
+			(at 247.65 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fc6893bb-dbae-4cbf-8f5f-25952390bab7")
+		)
+		(pin "4"
+			(uuid "1fc0ffec-d744-49fe-b5e7-1820a1b3dfe9")
+		)
+		(pin "3"
+			(uuid "3d370b22-a393-4da2-ae51-fd9b39ff3ab0")
+		)
+		(pin "1"
+			(uuid "b4c9c5f8-646b-4910-b880-a569bef8f184")
+		)
+		(pin "6"
+			(uuid "b16fe82f-0ef4-4de9-9ff2-c3d0dcbc2939")
+		)
+		(pin "5"
+			(uuid "1138845c-2e95-40bf-a3bd-4f7f0097b2ee")
+		)
+		(instances
+			(project ""
+				(path "/d9db63b9-0e33-4ffc-b3bb-ae5011fef151"
+					(reference "LED1")
 					(unit 1)
 				)
 			)
@@ -13623,7 +13984,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "AC_logos:Creations logo med"
+		(property "Footprint" "LCSCfootprints:Creations logo med"
 			(at 35.814 23.876 0)
 			(effects
 				(font
@@ -13727,16 +14088,16 @@
 	)
 	(symbol
 		(lib_id "AC_LED:SK6812_mini_RGBW")
-		(at 344.17 86.36 0)
+		(at 298.45 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "78a69309-33a2-4594-9578-601a65e1e173")
 		(property "Reference" "D1"
-			(at 353.06 79.9398 0)
+			(at 307.34 88.8298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13744,15 +14105,15 @@
 			)
 		)
 		(property "Value" "~"
-			(at 353.06 82.4798 0)
+			(at 307.34 91.3698 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "AC_LED:SK6812MINIRGBWNWP6"
-			(at 343.916 108.966 0)
+		(property "Footprint" "LCSCfootprints:LED-SMD_6P-L3.5-W3.5_SK6812MINIRGBW-WS-P6-A"
+			(at 298.196 117.856 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13761,7 +14122,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 344.17 86.36 0)
+			(at 298.45 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13770,7 +14131,7 @@
 			)
 		)
 		(property "Description" "3535 rgbw sk6812 led"
-			(at 344.424 106.68 0)
+			(at 298.704 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13779,7 +14140,7 @@
 			)
 		)
 		(property "LCSC" "C7423106"
-			(at 344.17 86.36 0)
+			(at 298.45 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13788,7 +14149,7 @@
 			)
 		)
 		(property "warm white" "C7423106"
-			(at 344.17 86.36 0)
+			(at 298.45 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13797,7 +14158,7 @@
 			)
 		)
 		(property "cold white" "C7423105"
-			(at 344.17 86.36 0)
+			(at 298.45 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13806,7 +14167,7 @@
 			)
 		)
 		(property "neutral white" "C7423107"
-			(at 344.17 86.36 0)
+			(at 298.45 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13840,7 +14201,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 330.2 86.36 270)
+		(at 228.6 99.06 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13848,7 +14209,7 @@
 		(dnp no)
 		(uuid "7c868f5f-004c-4960-9672-4453921a17d0")
 		(property "Reference" "R5"
-			(at 331.3684 88.138 0)
+			(at 229.7684 100.838 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13857,7 +14218,7 @@
 			)
 		)
 		(property "Value" "470R"
-			(at 329.057 88.138 0)
+			(at 227.457 100.838 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13866,7 +14227,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 330.2 84.582 90)
+			(at 228.6 97.282 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13875,7 +14236,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 330.2 86.36 0)
+			(at 228.6 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13884,7 +14245,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 330.2 86.36 0)
+			(at 228.6 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13892,7 +14253,7 @@
 			)
 		)
 		(property "LCSC Part" "C114433"
-			(at 330.2 86.36 0)
+			(at 228.6 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14289,7 +14650,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 344.17 99.06 0)
+		(at 236.22 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14298,7 +14659,7 @@
 		(fields_autoplaced yes)
 		(uuid "9bd959fc-945c-4085-a2bc-f26f1a5395b3")
 		(property "Reference" "#PWR017"
-			(at 344.17 105.41 0)
+			(at 236.22 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14307,7 +14668,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 344.17 104.14 0)
+			(at 236.22 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14315,7 +14676,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 344.17 99.06 0)
+			(at 236.22 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14324,7 +14685,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 344.17 99.06 0)
+			(at 236.22 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14333,7 +14694,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 344.17 99.06 0)
+			(at 236.22 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)

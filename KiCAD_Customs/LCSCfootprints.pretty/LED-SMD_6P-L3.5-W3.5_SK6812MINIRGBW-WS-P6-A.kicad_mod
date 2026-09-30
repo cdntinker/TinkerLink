@@ -1,0 +1,248 @@
+(footprint "LED-SMD_6P-L3.5-W3.5_SK6812MINIRGBW-WS-P6-A"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.5 0)
+		(layer "F.SilkS")
+		(uuid "2fcd551d-bc3c-45e8-a74e-f95c6b99d4c9")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "LED-SMD_6P-L3.5-W3.5_SK6812MINIRGBW-WS-P6-A"
+		(at 0 5.1 0)
+		(layer "F.Fab")
+		(uuid "044ace1a-323c-43a1-91cd-57afeed2b9be")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6839d22c-27d2-48ac-b1a4-9b540afbd1d4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0ab19444-73b9-41ba-b6df-70426b6d938a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC Part" "C7423106"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0a3abcc6-6966-441f-84d0-8ed5466a33e1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.85 -1.75)
+		(end -1.85 -1.66)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a0d68678-bc2a-440c-8237-7d43e5009800")
+	)
+	(fp_line
+		(start -1.85 1.66)
+		(end -1.85 1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ee52b324-6a78-4b7d-b68f-d95f6cc04ffd")
+	)
+	(fp_line
+		(start 1.85 -1.75)
+		(end -1.85 -1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bbd9796e-ac30-4e3b-b7c8-0615e79eace2")
+	)
+	(fp_line
+		(start 1.85 -1.66)
+		(end 1.85 -1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "eae4167b-8a6c-45b4-8496-e46d7e920714")
+	)
+	(fp_line
+		(start 1.85 1.75)
+		(end -1.85 1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ae5975e1-1a86-4b9d-890c-c6d5f24df8c5")
+	)
+	(fp_line
+		(start 1.85 1.75)
+		(end 1.85 1.66)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a44c5e2c-10b4-47d8-be0f-54eb5f7e04f0")
+	)
+	(fp_circle
+		(center -1.85 -1.75)
+		(end -1.82 -1.75)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "5139517b-851c-4d7f-a566-fd6397bfc1be")
+	)
+	(fp_poly
+		(pts
+			(xy -2.159 -1.778) (xy -2.159 -2.328012) (xy -1.608988 -2.328012) (xy -2.159 -1.778)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "52f7caad-509a-4877-88f3-b332fdc966e1")
+	)
+	(fp_line
+		(start -1.85 -1.75)
+		(end 1.85 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4ac94902-960d-4c3c-8cdd-459639ce47af")
+	)
+	(fp_line
+		(start -1.85 1.75)
+		(end -1.85 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "88290339-5e0f-4d0d-8ba6-3c603feb09bd")
+	)
+	(fp_line
+		(start 1.85 -1.75)
+		(end 1.85 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8ff6a5df-0d54-4a7b-b0e0-d9940f00e97a")
+	)
+	(fp_line
+		(start 1.85 1.75)
+		(end -1.85 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a662b1b5-0702-4158-b5ee-68ba64056f28")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "36d82e51-e1d9-4fc8-bd49-630c74e66838")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.7 -1.1)
+		(size 1.4 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3b6847f1-d1a8-4e09-9013-ef9a830da3b1")
+	)
+	(pad "2" smd rect
+		(at -1.7 0)
+		(size 1.4 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6ceb1460-7070-4c1a-9243-7a37b2e21f56")
+	)
+	(pad "3" smd rect
+		(at -1.7 1.1)
+		(size 1.4 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "86d3da7b-0484-4744-b386-8f8218532456")
+	)
+	(pad "4" smd rect
+		(at 1.7 1.1)
+		(size 1.4 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "bcb8a047-164e-4a91-95f8-6ccc39f56b28")
+	)
+	(pad "5" smd rect
+		(at 1.7 0)
+		(size 1.4 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e999dfb0-fa99-4e7a-85e0-0e21b54255a7")
+	)
+	(pad "6" smd rect
+		(at 1.7 -1.1)
+		(size 1.4 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "625a065f-0a18-4740-8007-13cd6ed0fcdf")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/KiCAD_Customs/C7423106/LED-SMD_6P-L3.5-W3.5_SK6812MINIRGBW-WS-P6-A.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
