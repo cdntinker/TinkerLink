@@ -11,7 +11,7 @@
 		(comment 1 "With much input by Austin's Creations")
 	)
 	(lib_symbols
-		(symbol "AC_logos:Creations_logo_med"
+		(symbol "AC_logos:Creations_logo_small"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -24,7 +24,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Creations_logo_med"
+			(property "Value" "Creations_logo_small"
 				(at 2.54 -1.27 0)
 				(effects
 					(font
@@ -33,7 +33,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "AC_logos:Creations logo med"
+			(property "Footprint" "AC_logos:Creations logo small"
 				(at 16.764 -3.556 0)
 				(effects
 					(font
@@ -60,7 +60,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Creations_logo_med_1_0"
+			(symbol "Creations_logo_small_1_0"
 				(rectangle
 					(start -1.905 1.27)
 					(end -1.5748 1.2954)
@@ -13529,11 +13529,11 @@
 		)
 	)
 	(symbol
-		(lib_id "AC_logos:Creations_logo_med")
+		(lib_id "AC_logos:Creations_logo_small")
 		(at 19.05 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -13547,7 +13547,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Creations_logo_med"
+		(property "Value" "Creations_logo_small"
 			(at 21.59 25.6539 0)
 			(effects
 				(font
@@ -13556,7 +13556,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "AUSTINfootprints:Creations logo med"
+		(property "Footprint" "AC_logos:Creations logo small"
 			(at 35.814 27.686 0)
 			(effects
 				(font
