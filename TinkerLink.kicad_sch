@@ -8,7 +8,7 @@
 		(title "TinkerLink")
 		(rev "0.0.6")
 		(company "S. A. Miller")
-		(comment 1 "With much input by Austin McNeal")
+		(comment 1 "With much input by Austin's Creations")
 	)
 	(lib_symbols
 		(symbol "AC_LED:SK6812_mini_RGBW"
