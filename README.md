@@ -15,3 +15,18 @@
   * ATM, we simply pass them through (but swapped along the way for simplicity...)
   * Maybe have the ESP handle them...
   * more research would be needed to determine if this is even useful or feasable
+
+# Power Monitoring thoughts
+* INA chip selection
+  * INA228 (Current chip in the design)
+    * very expensive
+    * 625uA resoluation
+  * INA237
+    * 1/3 the price
+    * 800uA resoluation
+  * INA219
+    * 1/6 the price
+    * 6255mA resoluation?
+  * INA226
+    * under a buck...
+    * drop in replacement for INA228 with good enough resolution
