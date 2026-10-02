@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "AUSTINLibrary")(type "KiCad")(uri "${KIPRJMOD}/KiCAD_Customs/AUSTINLibrary.kicad_sym")(options "")(descr ""))
+  (lib (name "TINKERLibrary")(type "KiCad")(uri "${KIPRJMOD}/KiCAD_Customs/TINKERLibrary.kicad_sym")(options "")(descr ""))
+)

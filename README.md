@@ -14,9 +14,8 @@
 # Thoughts (now that there's a USB-C connector at each end...)
 * CC1 & CC2
   * ATM, we simply pass them through (but swapped along the way for simplicity...)
-  * Also: R7 & R8 are there to add 5k1 resistors if needed.
-  * Maybe have the ESP handle them...
-  * more research would be needed to determine if this is even useful or feasable
+  * Also: R9 & R10 are there to add 5k1 resistors if needed.
+  *  Now the ESP handle them via io2...
 
 # Power Monitoring thoughts
 * INA chip selection
