@@ -26,7 +26,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TINKERfootprints:ProgHeader_1x06_P2.00mm"
 			(at 0 0 0)
 			(effects
 				(font
@@ -51,14 +51,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "ki_keywords" "connector"
@@ -568,7 +560,7 @@
 				)
 			)
 		)
-		(property "Footprint" "tinker:USB-A-USB-C"
+		(property "Footprint" "TINKERfootprints:USB-A-USB-C"
 			(at 0 -11.43 0)
 			(effects
 				(font
@@ -830,7 +822,7 @@
 				)
 			)
 		)
-		(property "Footprint" "tinker:USB_C_Hermaphrodite"
+		(property "Footprint" "TINKERfootprints:USB_C_Hermaphrodite"
 			(at 0 -21.59 0)
 			(effects
 				(font
