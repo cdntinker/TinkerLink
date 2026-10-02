@@ -9,7 +9,7 @@
 	(paper "A4")
 	(title_block
 		(title "TinkerLink")
-		(rev "0.0.6")
+		(rev "0.0.8")
 		(company "S. A. Miller")
 		(comment 1 "With much input by Austin's Creations")
 	)

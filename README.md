@@ -19,15 +19,13 @@
 
 # Power Monitoring thoughts
 * INA chip selection
+* The following are all drop-in replacements for each other...
   * INA228 (Current chip in the design)
     * very expensive
     * 625uA resoluation
   * INA237
     * 1/3 the price
     * 800uA resoluation
-  * INA219
-    * 1/6 the price
-    * 6255mA resoluation?
   * INA226
     * under a buck...
-    * drop in replacement for INA228 with good enough resolution
+    * 1.5mA resoluation

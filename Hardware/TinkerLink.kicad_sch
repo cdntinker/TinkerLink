@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "TinkerLink")
-		(rev "0.0.6")
+		(rev "0.0.8")
 		(company "S. A. Miller")
 		(comment 1 "With much input by Austin's Creations")
 	)
@@ -10878,12 +10878,6 @@
 		(uuid "8b19ad79-c8e5-4dfe-a036-96d7da78beaf")
 	)
 	(junction
-		(at 44.45 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9a2fdeb8-ebf8-43aa-a616-2453b9858331")
-	)
-	(junction
 		(at 74.93 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11567,16 +11561,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 95.25) (xy 44.45 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7007e92e-5ed4-428d-8bd2-73cdac5f8c16")
-	)
-	(wire
-		(pts
 			(xy 107.95 73.66) (xy 106.68 73.66)
 		)
 		(stroke
@@ -11777,16 +11761,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 100.33) (xy 44.45 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "992e62ba-4706-41b7-9b23-f38daa8e3850")
-	)
-	(wire
-		(pts
 			(xy 261.62 97.79) (xy 257.81 97.79)
 		)
 		(stroke
@@ -11964,16 +11938,6 @@
 			(type default)
 		)
 		(uuid "abd3fcc6-0061-4701-b7bd-05172170a134")
-	)
-	(wire
-		(pts
-			(xy 40.64 95.25) (xy 44.45 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abf0c5e0-d105-4b01-94a9-b883d40bfe1b")
 	)
 	(wire
 		(pts
@@ -12324,16 +12288,6 @@
 			(type default)
 		)
 		(uuid "dfc0151c-de29-4d07-afc6-970e88140db7")
-	)
-	(wire
-		(pts
-			(xy 44.45 100.33) (xy 44.45 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e041e774-7e84-49c5-ac69-6b5144178ec6")
 	)
 	(wire
 		(pts
@@ -12861,28 +12815,6 @@
 	)
 	(global_label "CC2"
 		(shape input)
-		(at 33.02 95.25 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "59b2f987-8561-499b-a86f-64c609e6f92c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.2853 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CC2"
-		(shape input)
 		(at 218.44 39.37 180)
 		(fields_autoplaced yes)
 		(effects
@@ -12894,28 +12826,6 @@
 		(uuid "5a5a3767-6544-4629-8ff0-2cd5ffebb46f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 211.7053 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CC1"
-		(shape input)
-		(at 33.02 100.33 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6b8e06cc-4f81-42ed-8643-67ad5d1d829c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.2853 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13522,7 +13432,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C5370430,  C2765186"
+		(property "LCSC Part" "C5370430"
 			(at 228.6 74.93 0)
 			(effects
 				(font
@@ -13787,7 +13697,7 @@
 		(at 149.86 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -14383,72 +14293,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 44.45 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "4f3b77bf-f93b-4708-b78c-a1de0b18c2a5")
-		(property "Reference" "#PWR011"
-			(at 44.45 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 44.45 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 44.45 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7541fa4d-790b-4852-be57-c5e164ea6012")
-		)
-		(instances
-			(project "TinkerLink"
-				(path "/d9db63b9-0e33-4ffc-b3bb-ae5011fef151"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 242.57 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14643,7 +14487,7 @@
 		(at 149.86 191.77 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -14706,93 +14550,6 @@
 			(project ""
 				(path "/d9db63b9-0e33-4ffc-b3bb-ae5011fef151"
 					(reference "LOGO1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 36.83 95.25 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp yes)
-		(uuid "651b6a2d-db45-45ea-ac33-c2cad57275ef")
-		(property "Reference" "R7"
-			(at 38.608 93.218 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5k1"
-			(at 38.608 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 36.83 97.028 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 36.83 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 36.83 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C23186"
-			(at 36.83 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part" ""
-			(at 36.83 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7c024208-ea66-4031-b83c-3d550f1b5cf9")
-		)
-		(pin "2"
-			(uuid "0e3de3a3-41fe-4b41-8b28-2e7dfd37f684")
-		)
-		(instances
-			(project "TinkerLink"
-				(path "/d9db63b9-0e33-4ffc-b3bb-ae5011fef151"
-					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -15211,93 +14968,6 @@
 			(project ""
 				(path "/d9db63b9-0e33-4ffc-b3bb-ae5011fef151"
 					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 36.83 100.33 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp yes)
-		(uuid "88353a2a-924f-4bb7-bd25-5fe9d3f9e75e")
-		(property "Reference" "R8"
-			(at 38.608 98.298 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5k1"
-			(at 38.608 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 36.83 102.108 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 36.83 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 36.83 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C23186"
-			(at 36.83 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part" ""
-			(at 36.83 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a0e4e36d-dd35-471d-ad1c-b373e56777e3")
-		)
-		(pin "2"
-			(uuid "c767e451-854f-472d-bfb3-eeef437f258f")
-		)
-		(instances
-			(project "TinkerLink"
-				(path "/d9db63b9-0e33-4ffc-b3bb-ae5011fef151"
-					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -16918,6 +16588,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C672154"
+			(at 41.91 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "ee5a228b-48a7-4934-acd9-8333a8637979")
 		)
@@ -17228,7 +16907,7 @@
 		(at 186.69 151.13 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
