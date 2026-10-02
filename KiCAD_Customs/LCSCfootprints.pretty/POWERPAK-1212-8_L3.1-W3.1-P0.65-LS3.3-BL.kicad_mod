@@ -211,7 +211,7 @@
 		(uuid "6c7a7c86-5a08-448d-929b-4ac6e4ba8d25")
 	)
 	(embedded_fonts no)
-	(model "/home/tinker/Documents/GIT/TinkerLink/KiCAD_Customs/C3279469/POWERPAK-1212-8_L3.1-W3.1-P0.65-LS3.3-BL.step"
+	(model "${KIPRJMOD}/KiCAD_Customs/C3279469/POWERPAK-1212-8_L3.1-W3.1-P0.65-LS3.3-BL.step"
 		(offset
 			(xyz 0 0 0)
 		)

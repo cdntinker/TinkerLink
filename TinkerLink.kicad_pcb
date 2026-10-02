@@ -733,7 +733,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "11a5a031-c7dc-472e-8ae4-de896eb25ff4")
+			(uuid "2d23edc7-02f1-4c41-b40b-84cdc19cf8b9")
 		)
 		(fp_line
 			(start 1.55 -1.55)
@@ -743,7 +743,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "59db5934-8288-4ad4-b458-170b9cadb5f7")
+			(uuid "ad257238-95e1-4972-b3e0-dbdd3d6d1401")
 		)
 		(fp_circle
 			(center -1.56 1.62)
@@ -754,7 +754,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "099b0424-10fa-4855-a4d9-1d80cd5e0815")
+			(uuid "2ea26cd0-54c3-4214-ac72-7e9ae33fda9e")
 		)
 		(fp_circle
 			(center -1.266569 0.942918)
@@ -765,7 +765,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "f23ae92a-8bac-4e51-92e8-982e7efdca18")
+			(uuid "c39478ac-2118-4408-90db-cab7bf19af1e")
 		)
 		(fp_line
 			(start -1.52 -1.53)
@@ -775,7 +775,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "89bd5884-191f-4d94-acdb-a4321cd57597")
+			(uuid "e69f5a09-bfbd-46ea-8139-263a1bf33305")
 		)
 		(fp_line
 			(start -1.52 1.52)
@@ -785,7 +785,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "a8600340-6d6e-4853-8703-2de7b1c80461")
+			(uuid "2874fd01-4a10-40ce-b3ff-9c6f89a29f0b")
 		)
 		(fp_line
 			(start 1.52 -1.53)
@@ -795,7 +795,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "fa752cf8-8275-463e-9abf-461959d31aad")
+			(uuid "e16fec7d-9ab9-4c3b-9e7d-7884f2581f98")
 		)
 		(fp_line
 			(start 1.52 1.52)
@@ -805,7 +805,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "39ff5e0e-d4b2-484e-a282-8c833cbd9741")
+			(uuid "f9a04ee8-d734-461c-9ccc-8a18b2567b8d")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -900,7 +900,7 @@
 			(uuid "3292d9f0-8ed3-467c-91cd-5522e0b9a38a")
 		)
 		(embedded_fonts no)
-		(model "/home/tinker/Documents/GIT/TinkerLink/KiCAD_Customs/C3279469/POWERPAK-1212-8_L3.1-W3.1-P0.65-LS3.3-BL.step"
+		(model "${KIPRJMOD}/KiCAD_Customs/C3279469/POWERPAK-1212-8_L3.1-W3.1-P0.65-LS3.3-BL.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8705,7 +8705,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "112b843d-735a-456c-83c3-f3657e5a580a")
+			(uuid "515ed20e-0d92-42c3-9b52-f3f38b4c2a26")
 		)
 		(fp_line
 			(start -1.55 1.55)
@@ -8715,7 +8715,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "910d1b2b-117b-4253-9964-01c4080932be")
+			(uuid "9b41772d-b3ab-4a87-87f8-00623c1c51c0")
 		)
 		(fp_circle
 			(center -1.266569 0.942918)
@@ -8726,7 +8726,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "b1dd5711-5fe7-4d05-89a8-fc09d5b383b4")
+			(uuid "39c9306e-591a-4a84-9e59-e03b9191e69a")
 		)
 		(fp_circle
 			(center -1.56 1.62)
@@ -8737,7 +8737,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "263c4e44-4e02-4bc2-bcb8-f71e91b9a92b")
+			(uuid "21af6891-ac61-47b1-a1dc-bcc9ab25a18e")
 		)
 		(fp_line
 			(start 1.52 1.52)
@@ -8747,7 +8747,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "16e27034-6868-4bbd-bf17-2e046e1f008a")
+			(uuid "dc3c1679-ef9d-4e9d-be86-ea3597ef4d94")
 		)
 		(fp_line
 			(start 1.52 -1.53)
@@ -8757,7 +8757,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "94622b16-0e80-4c39-b657-c227aed4490c")
+			(uuid "d1ba26db-0cb4-4294-bcaf-dfe3baf2c0e8")
 		)
 		(fp_line
 			(start -1.52 1.52)
@@ -8767,7 +8767,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "98382801-c685-49ea-be8b-e1513aa9bb91")
+			(uuid "c2bbb303-1dca-406b-9aef-97c10f9d246e")
 		)
 		(fp_line
 			(start -1.52 -1.53)
@@ -8777,7 +8777,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "3b0075d3-e36b-4e48-ae2a-92c2178e5c35")
+			(uuid "d329d280-3d05-4794-929b-a6254cfe43f5")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -8872,7 +8872,7 @@
 			(uuid "95ca1cba-5530-4e85-bb39-7c07807be9c2")
 		)
 		(embedded_fonts no)
-		(model "/home/tinker/Documents/GIT/TinkerLink/KiCAD_Customs/C3279469/POWERPAK-1212-8_L3.1-W3.1-P0.65-LS3.3-BL.step"
+		(model "${KIPRJMOD}/KiCAD_Customs/C3279469/POWERPAK-1212-8_L3.1-W3.1-P0.65-LS3.3-BL.step"
 			(offset
 				(xyz 0 0 0)
 			)
