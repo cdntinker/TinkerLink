@@ -10,7 +10,8 @@
   * Also: R9 & R10 are there to add 5k1 resistors if needed.
     * Now the ESP handles inserting them via io2...
 
-![A 3D render of the device](/Pix/TinkerLink top.png)
+![A 3D render of the device](/Pix/TinkerLink_top.png)
+
 # Power Monitoring thoughts:
 * INA chip selection
 * The following are all drop-in replacements for each other...
