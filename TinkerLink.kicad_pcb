@@ -5265,7 +5265,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C5370430"
+		(property "LCSC Part" "C5370430,  C2765186"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8956,7 +8956,7 @@
 		(path "/e4b778ac-1c32-4fcc-a2c7-049ecbf6eb60")
 		(sheetname "/")
 		(sheetfile "TinkerLink.kicad_sch")
-		(attr through_hole exclude_from_bom dnp)
+		(attr through_hole dnp)
 		(fp_line
 			(start 1 -1)
 			(end 1 11)
