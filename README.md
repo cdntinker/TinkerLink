@@ -9,10 +9,12 @@
 # Notes:
 * Overall board outline is non-negotiable unless it gets shorter!
 * The curved lines on user.3 in the corners are there to indicate where the corners will be after applying "Shape Modification / Fillet Lines"
+* Suspect it might be a good idea to include more of the custom symbols & footprints here in the repo... Working on it...
 
 # Thoughts (now that there's a USB-C connector at each end...)
 * CC1 & CC2
   * ATM, we simply pass them through (but swapped along the way for simplicity...)
+  * Also: R7 & R8 are there to add 5k1 resistors if needed.
   * Maybe have the ESP handle them...
   * more research would be needed to determine if this is even useful or feasable
 

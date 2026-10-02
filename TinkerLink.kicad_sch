@@ -9958,26 +9958,6 @@
 		)
 		(uuid e3ba47cc-519b-4f2d-8eb8-5b1f31c74b19)
 	)
-	(text "Led_i 1"
-		(exclude_from_sim no)
-		(at 108.712 136.652 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "17fde558-e3cd-42df-9fe7-15a1e476c27e")
-	)
-	(text "LedLink"
-		(exclude_from_sim no)
-		(at 108.204 126.238 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "60d28632-6d3d-4694-8ed6-a2c9743d15b0")
-	)
 	(text "tinker:USB-A-USB-C"
 		(exclude_from_sim no)
 		(at 43.434 59.436 0)
@@ -9987,6 +9967,26 @@
 			)
 		)
 		(uuid "64afd862-f215-43ed-a1aa-5b85cdf52e44")
+	)
+	(text "Button"
+		(exclude_from_sim no)
+		(at 113.284 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "720eab97-c282-4916-a7f2-2a06065f9578")
+	)
+	(text "LED"
+		(exclude_from_sim no)
+		(at 114.3 133.604 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "77ddb18d-717f-40ee-9b9e-14faa31db428")
 	)
 	(text "So...  How about swapping in\nan INA226, INA237, INAwhatever..."
 		(exclude_from_sim no)
@@ -10048,6 +10048,26 @@
 			)
 		)
 		(uuid "d39645ec-5b89-429d-9886-1f89bc5a3866")
+	)
+	(text "I2C"
+		(exclude_from_sim no)
+		(at 207.264 134.874 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d7433367-6275-4969-8504-292ca2020959")
+	)
+	(text "Vbus control"
+		(exclude_from_sim no)
+		(at 110.49 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e56a739c-2133-4ac4-b985-5b4142cc389f")
 	)
 	(junction
 		(at 137.16 63.5)
@@ -13677,7 +13697,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "AC_logos:Creations logo small"
+		(property "Footprint" "AUSTINfootprints:Creations logo small"
 			(at 35.814 27.686 0)
 			(effects
 				(font
