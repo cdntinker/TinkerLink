@@ -5,6 +5,7 @@
 *.lck
 
 *.FCStd1
+*.FCBak
 
 *-backups
 */*-backups/
