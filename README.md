@@ -29,3 +29,6 @@
 # Firmware:
 * Yet to be developped...
 * Might work with TasmOTA like the original SiniLink could
+
+# Notes:
+Thanks to DJ_Dichotomy in the SuperHouseTV Discord for the antenna model...
